@@ -1,0 +1,1 @@
+  <button class="btn btn-alert">Primary button</button>
