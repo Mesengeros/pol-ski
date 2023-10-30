@@ -2,17 +2,29 @@
   "name": "pol-ski",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "watch": "parcel watch assets/main.js --dist-dir dist",
     "build": "parcel build assets/main.js --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mesengeros/pol-ski.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mesengeros/pol-ski/issues"
+  },
+  "homepage": "https://github.com/Mesengeros/pol-ski#readme",
   "devDependencies": {
-    "parcel": "^2.10.1"
+    "@parcel/transformer-sass": "^2.10.0",
+    "autoprefixer": "^10.4.16",
+    "parcel": "^2.10.0",
+    "postcss-modules": "^6.0.0",
+    "postcss-uncss": "^0.17.0",
+    "sass": "^1.69.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",

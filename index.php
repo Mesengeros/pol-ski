@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php get_header(); ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-   <link rel="stylesheet" href="wp-content/themes/pol-ski/dist/main.css">
-    <script src="wp-content/themes/pol-ski/dist/main.js"></script>
-</head>
 
-<body>
+<?php
+if (have_posts()) {
+  while (have_posts()) {
+    the_post();
+    the_title();
+    the_content();
+  } // end while
+} // end if
+?>
 
-  <div class="container py-4 px-3 mx-auto">
-    <h1>Hello, Bootstrap and Parcel!</h1>
-    <button class="btn btn-primary">Primary button</button>
-    <p class="primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat! Pariatur culpa dolores eligendi veniam aliquam. Excepturi, minima porro eius odit ab repudiandae aliquid aliquam error vero molestias aspernatur perspiciatis?</p>
-  </div>
-
-</body>
-
-</html>
+<?php get_footer(); ?>
