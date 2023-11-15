@@ -2,6 +2,9 @@
   <div class="carousel-inner">
     <div class="carousel-item active ratio" style="--bs-aspect-ratio: 30%;">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/image1.JPG" class="d-block w-100 carousel-image" alt="image1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>zaufaj profesjonalistom i wystartuj <span style="color: red">z nami</span></h5>
+      </div>
     </div>
     <div class="carousel-item ratio" style="--bs-aspect-ratio: 30%;">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/image2.JPG" class="d-block w-100 carousel-image" alt="image2">
